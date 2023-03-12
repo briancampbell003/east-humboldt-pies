@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mhl-rs-relocation/static/css/main.48a8e24c.chunk.css",
+    "main.js": "/mhl-rs-relocation/static/js/main.150efd03.chunk.js",
+    "main.js.map": "/mhl-rs-relocation/static/js/main.150efd03.chunk.js.map",
+    "runtime-main.js": "/mhl-rs-relocation/static/js/runtime-main.37cd9faa.js",
+    "runtime-main.js.map": "/mhl-rs-relocation/static/js/runtime-main.37cd9faa.js.map",
+    "static/css/2.f26e749f.chunk.css": "/mhl-rs-relocation/static/css/2.f26e749f.chunk.css",
+    "static/js/2.2b8d651e.chunk.js": "/mhl-rs-relocation/static/js/2.2b8d651e.chunk.js",
+    "static/js/2.2b8d651e.chunk.js.map": "/mhl-rs-relocation/static/js/2.2b8d651e.chunk.js.map",
+    "index.html": "/mhl-rs-relocation/index.html",
+    "static/css/2.f26e749f.chunk.css.map": "/mhl-rs-relocation/static/css/2.f26e749f.chunk.css.map",
+    "static/css/main.48a8e24c.chunk.css.map": "/mhl-rs-relocation/static/css/main.48a8e24c.chunk.css.map",
+    "static/js/2.2b8d651e.chunk.js.LICENSE.txt": "/mhl-rs-relocation/static/js/2.2b8d651e.chunk.js.LICENSE.txt",
+    "static/media/constr-img.01a896e4.png": "/mhl-rs-relocation/static/media/constr-img.01a896e4.png",
+    "static/media/main-logo-trans.02a2bb03.png": "/mhl-rs-relocation/static/media/main-logo-trans.02a2bb03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37cd9faa.js",
+    "static/css/2.f26e749f.chunk.css",
+    "static/js/2.2b8d651e.chunk.js",
+    "static/css/main.48a8e24c.chunk.css",
+    "static/js/main.150efd03.chunk.js"
+  ]
+}

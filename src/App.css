@@ -1,0 +1,167 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+:root {
+    --primary: rgb(249, 240, 219);
+    --secondary: #2e2e3e;
+    --tertiary: #e1cd88;
+    --error: rgb(228, 46, 1);
+    --border-radius: 0.3rem;
+}
+
+.page-frame {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    height: calc(100% + 40px);
+    background-color: var(--secondary);
+    padding-bottom: 40px;
+}
+
+.page-content {
+    margin: 30px 15% 40px;
+    padding: 15px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: var(--tertiary) double 5px;
+}
+
+h1 {
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/* HEADER AND NAV */
+.mhl-corner-logo {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    background-image: linear-gradient(to right, whitesmoke, var(--primary));
+    border-bottom: 2px solid whitesmoke;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.header a {
+    margin-top: 12px;
+    padding-left: 125px;
+    padding-right: 125px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--secondary);
+}
+.header a.active, .header a:hover {
+    font-style: italic;
+    color: black;
+}
+.nav a {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-flow: row nowrap;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    font-size: 18px;
+    color: var(--tertiary);
+}
+.nav a.active, .nav a:hover {
+    font-style: italic;
+    color: var(--secondary);
+}
+
+/* HOME PAGE */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15% 40px;
+    padding: 15px;
+    color: var(--secondary);
+    background-color: whitesmoke;
+    border: var(--tertiary) double 5px;
+}
+
+.constr-img {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15px;
+    opacity: .75;
+    border: var(--secondary) 1px solid;
+    border-radius: 10px;
+}
+
+/* ACCORDIONS */
+.accordion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px;
+}
+.accordion-item {
+    padding: 8px;
+    width: 90vw;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.accordion-btn {
+    font-style: italic;
+    color: rgb(163, 163, 163);
+    margin-left: 38px;
+}
+.accordion-title {
+    margin: 4px;
+}
+.accordion-title  .isActive {
+    margin: 4px;
+    font-weight: bolder;
+}
+.accordion-content {
+    margin: 4px;
+}
+
+/* FOOTER */
+.footer {
+    font-size: 15px;
+    font-style: italic;
+    background-image: linear-gradient(to right, var(--primary), whitesmoke);
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .mhl-corner-logo {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header a {
+        border-bottom: var(--secondary) 2px solid;
+    }
+    .nav a {
+        width: 100vw;
+        flex-direction: column;
+        margin: 0px;
+        border-bottom: none;
+    }
+}
