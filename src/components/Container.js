@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Home from './Home';
+import Home from './pages/Home';
 import About from './pages/About';
 import Order from './pages/Order';
 import Logo from '../assets/east-humboldt-pies_logo.png';
