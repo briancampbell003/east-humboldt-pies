@@ -11,49 +11,35 @@
     --border-radius: 0.3rem;
 }
 
-.corner-logo {
-    position: absolute;
-    top: 0px;
-    left: 40px;
-    width: 200px;
-    height: auto;
-}
-
-.page-frame {
-    position: relative;
-    width: 100vw;
-    min-height: 100vh;
-    height: calc(100% + 40px);
-    background-color: var(--secondary);
-    padding-bottom: 40px;
-}
-
-.page-content {
-    margin: 30px 15% 40px;
-    padding: 15px;
-    color: var(--secondary);
-    background-color: var(--primary);
-    border: var(--tertiary) double 5px;
-}
-
 h1 {
     font-style: italic;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-/* HEADER AND NAV */
-.mhl-corner-logo {
-    position: absolute;
-    right: 25px;
-    top: 20px;
-}
 
+/* HEADER AND NAV */
+
+.header-contain {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+}
+.corner-logo {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    width: 20%;
+    height: auto;
+}
 .header {
+    top: 0px;
+    width: 80%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
     background-image: linear-gradient(to right, whitesmoke, var(--primary));
     border-bottom: 2px solid whitesmoke;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -72,11 +58,14 @@ h1 {
     font-style: italic;
     color: black;
 }
-.nav a {
+.nav {
     display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav a {
     padding-left: 15px;
     padding-right: 15px;
-    flex-flow: row nowrap;
     font-family: Georgia, Times, 'Times New Roman', serif;
     margin-right: 4vw;
     margin-left: 4vw;
@@ -87,6 +76,27 @@ h1 {
     font-style: italic;
     color: var(--secondary);
 }
+
+
+
+
+/* 
+.page-frame {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    height: calc(100% + 40px);
+    background-color: var(--secondary);
+    padding-bottom: 40px;
+}
+
+.page-content {
+    margin: 30px 15% 40px;
+    padding: 15px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    border: var(--tertiary) double 5px;
+} */
 
 /* HOME PAGE */
 .home-page {

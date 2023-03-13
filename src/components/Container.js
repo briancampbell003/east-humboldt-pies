@@ -25,8 +25,10 @@ export default function Container() {
 
     return (
         <div>
-            <img className="corner-logo" src={Logo} alt="East Humboldt Pies Logo"></img>
-            < Header currentPage={currentPage} handlePageChange={handlePageChange} />
+            <div className="header-contain">
+                < img className="corner-logo" src={Logo} alt="East Humboldt Pies Logo"></img>
+                < Header currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
             {renderPage()}
             < Footer />
         </div>
