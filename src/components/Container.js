@@ -24,7 +24,7 @@ export default function Container() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="page-container">
             <div className="header-contain">
                 < img className="corner-logo" src={Logo} alt="East Humboldt Pies Logo"></img>
                 < Header currentPage={currentPage} handlePageChange={handlePageChange} />
