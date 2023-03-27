@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import Header from './Header';
+import Navigation from './Navigation';
 import Footer from './Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Order from './pages/Order';
-import Logo from '../assets/east-humboldt-pies_logo.png';
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -24,12 +23,9 @@ export default function Container() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="page-container">
-            <div className="header-contain">
-                < img className="corner-logo" src={Logo} alt="East Humboldt Pies Logo"></img>
-                < Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            </div>
+        <div className="page-contain">
             {renderPage()}
+            < Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             < Footer />
         </div>
     );

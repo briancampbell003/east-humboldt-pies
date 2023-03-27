@@ -4,6 +4,9 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav">
       <li className="nav-item">
+        <p>East Humboldt Pies</p>
+      </li>
+      <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
