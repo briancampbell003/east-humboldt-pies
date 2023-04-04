@@ -9,9 +9,8 @@ import Cake1 from '../../assets/pictures/cake1.png';
 import Cake2 from '../../assets/pictures/cake2.png';
 export default function About() {
     return (
-        <div>
-            <h1>→ About</h1>
-            <Carousel className="carousel" autoPlay="true" showThumbs="false">
+        <div className="carousel-contain">
+            <Carousel autoPlay="true" showThumbs="false">
                     <div>
                         <img src={Pie1} alt="Lemon Meringue Pie" />
                         <p className="legend">"This lemon meringue pie made me say "YUM!!!!!!!~!!!"</p>

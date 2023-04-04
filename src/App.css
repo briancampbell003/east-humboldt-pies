@@ -1,11 +1,10 @@
-* {
-    font-family: 'Lora', serif;
-    /* border: 1px solid red; */
-}
+/* * {
+    border: 1px solid red;
+} */
 
 :root {
-    --primary: rgb(249, 240, 219);
-    --secondary: #737373;
+    --primary: rgb(16, 15, 13);
+    --secondary: rgb(250, 235, 210);
     --tertiary: #ebee30;
     --error: rgb(228, 46, 1);
 }
@@ -36,16 +35,20 @@
 
 .nav p {
     font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 32px;
     color: var(--primary);
-    margin-right: 100px;
+    margin-right: 75px;
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: var(--tertiary) 2px solid;
 }
 
 .nav a {
     font-family: 'Lora', serif;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 18px;
+    font-size: 22px;
     color: var(--tertiary);
     text-decoration: none;
     align-self: end;
@@ -57,30 +60,94 @@
 .nav a.active,
 .nav a:hover {
     font-style: italic;
+    text-decoration: underline;
+}
+.nav a:hover {
     color: var(--primary);
+    background-color: antiquewhite;
 }
 
 /* HOME PAGE */
 .home-contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-top-contain {
     display: flex;
     flex-direction: row;
 }
 .home-top-left {
     margin-top: 0;
     margin-left: 0;
-    width: 65%;
+    width: 62%;
     height: auto;
 }
 .home-top-left img {
     width: 100%;
     height: 100%;
 }
+
 .home-top-right {
-    width: 35%;
+    width: 38%;
     height: auto;
-    background-color: var(--primary);
+    background-color: var(--secondary);
+    padding-top: 6%;
+    font-weight: 600;
 }
 
+
+.home-btm-contain {
+    display: flex;
+    flex-direction: row;
+}
+.home-btm-left {
+    margin-top: 0;
+    margin-left: 0;
+    width: 30%;
+    height: auto;
+}
+.home-btm-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-btm-middle {
+    width: 40%;
+    height: auto;
+    background-color: var(--secondary);
+}
+
+.home-btm-right {
+    margin-top: 0;
+    margin-left: 0;
+    width: 30%;
+    height: auto;
+}
+.home-btm-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-top-right, .home-btm-middle {
+    text-align: center;
+    color: var(--primary);
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* ABOUT */
+.carousel-contain {
+    margin-top: 120px;
+    margin-left: 30%;
+    margin-right: 35%;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
 
 
 /* FOOTER */
