@@ -26,11 +26,11 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#order"
-          onClick={() => handlePageChange('Order')}
-          className={currentPage === 'Order' ? 'nav-link active' : 'nav-link'}
+          href="#menu"
+          onClick={() => handlePageChange('Menu')}
+          className={currentPage === 'Menu' ? 'nav-link active' : 'nav-link'}
         >
-          Order
+          Menu
         </a>
       </li>
     </ul>

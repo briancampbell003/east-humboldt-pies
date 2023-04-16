@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import Footer from './Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Order from './pages/Order';
+import Menu from './pages/Menu';
 
 export default function Container() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -15,8 +15,8 @@ export default function Container() {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Order') {
-            return <Order />;
+        if (currentPage === 'Menu') {
+            return <Menu />;
         }
     };
 
