@@ -149,6 +149,45 @@
     height: 100%;
 }
 
+/* MENU */
+.accordion {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.accordion-title {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.accordion-btn {
+    margin-left: 10px;
+}
+
+.accordion-item {
+    border: black 2px double;
+    width: 250px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.menu-insert {
+    background-color: aquamarine;
+}
+
+.menu-insert-head {
+    font-size: 18pt;
+    text-decoration: wavy;
+}
+
+.menu-insert-description {
+    font-style: italic;
+}
+
+
 
 /* FOOTER */
 .footer {

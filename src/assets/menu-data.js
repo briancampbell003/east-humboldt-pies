@@ -1,14 +1,51 @@
 export const menuData = [
     {
-      title: ``,
-      content: ``
+      title: `Seasonal specials`,
+      content: [
+        {
+          item: `Mother's Day Cookie Spread`,
+          description: `Oh la la`
+        },
+        {
+          item: `Summer's Here Applie Pie`,
+          description: `Yum yum`
+        },
+      ]
     },
     {
-      title: ``,
-      content: ``
+      title: `Pies`,
+      content: [
+        {
+          item: `Mother's Day Cookie Spread`,
+          description: `Oh la la`
+        }
+      ]
     },
     {
-      title: ``,
-      content: ``
+      title: `Cakes`,
+      content: [
+        {
+          item: `Mother's Day Cookie Spread`,
+          description: `Oh la la`
+        }
+      ]
+    },
+    {
+      title: `Cookies`,
+      content: [
+        {
+          item: `Mother's Day Cookie Spread`,
+          description: `Oh la la`
+        }
+      ]
+    },
+    {
+      title: `Other`,
+      content: [
+        {
+          item: `Mother's Day Cookie Spread`,
+          description: `Oh la la`
+        }
+      ]
     }
   ];
