@@ -150,12 +150,55 @@
 }
 
 /* MENU */
-.accordion {
+.menu-contain {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-top-left {
+    width: 70%;
+    height: auto;
+}
+.menu-top-left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-btm-left {
+    width: 30%;
+    height: auto;
+}
+.menu-btm-left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-btm-right {
+    width: 30%;
+    height: auto;
+}
+.menu-btm-right img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.accordion {
+    position: absolute;
     margin-top: 100px;
     margin-left: 15%;
     margin-right: 15%;
+    background-color: #0005;
+    border-radius: 15px;
+}
+
+.accordion-flex {
+    align-self: flex-start;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .accordion-title {
