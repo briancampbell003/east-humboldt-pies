@@ -10,6 +10,7 @@
 }
 
 .page-contain {
+    background-color: var(--secondary);
     position: relative;
     left: 0;
     top: 0;
@@ -78,7 +79,7 @@
 .home-top-left {
     margin-top: 0;
     margin-left: 0;
-    width: 62%;
+    width: 72%;
     height: auto;
 }
 .home-top-left img {
@@ -89,9 +90,9 @@
 .home-top-right {
     width: 38%;
     height: auto;
+    padding: 40px;
     background-color: var(--secondary);
-    padding-top: 6%;
-    font-weight: 600;
+    padding-top: 12%;
 }
 
 
@@ -102,7 +103,7 @@
 .home-btm-left {
     margin-top: 0;
     margin-left: 0;
-    width: 30%;
+    width: 37%;
     height: auto;
 }
 .home-btm-left img {
@@ -111,7 +112,8 @@
 }
 
 .home-btm-middle {
-    width: 40%;
+    width: 26%;
+    padding: 40px;
     height: auto;
     background-color: var(--secondary);
 }
@@ -119,7 +121,7 @@
 .home-btm-right {
     margin-top: 0;
     margin-left: 0;
-    width: 30%;
+    width: 37%;
     height: auto;
 }
 .home-btm-right img {

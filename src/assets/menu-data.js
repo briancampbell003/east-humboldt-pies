@@ -3,51 +3,97 @@ export const menuData = [
       title: `Seasonal specials`,
       content: [
         {
-          item: `Mother's Day Cookie Spread`,
-          description: `Oh la la`,
-          price: 15,
-        },
-        {
-          item: `Summer's Here Applie Pie`,
-          description: `Yum yum`,
-          price: 15,
+          item: `Check back later!`,
+          description: ``,
+          price: ``,
         },
       ]
     },
     {
-      title: `Pies`,
+      title: `Pies and Tarts`,
       content: [
         {
-          item: `Mother's Day Cookie Spread`,
-          description: `Oh la la`
-        }
+          item: `Fruit pies`,
+          description: `apple, cherry, blueberry, rhubarb, peach`,
+          price: 30
+        },
+        {
+          item: `Custard-based and cold-set pies`,
+          description: `lemon meringue, banana cream, coconut cream, key lime, chess, creme brulee, sugar pie, pecan`,
+          price: 35
+        },
+        {
+          item: `Cheese cake`,
+          description: `NY-style, chocolate, jam-swirled`,
+          price: 40
+        },
+        {
+          item: `Hand pies, half-dozen`,
+          price: 25
+        },
+        {
+          item: `Hand pies, full dozen`,
+          price: 40
+        },
       ]
     },
     {
       title: `Cakes`,
       content: [
         {
-          item: `Mother's Day Cookie Spread`,
-          description: `Oh la la`
-        }
+          item: `6" layer cake`,
+          description: `with custom design and flavors`,
+          price: `45+`
+        },
+        {
+          item: `8" layer cake`,
+          description: `with custom design and flavors`,
+          price: `60+`
+        },
+        {
+          item: `Cupakes, full dozen`,
+          price: 30
+        },
       ]
     },
     {
       title: `Cookies`,
       content: [
         {
-          item: `Mother's Day Cookie Spread`,
-          description: `Oh la la`
-        }
+          item: `Seasonal cookie boxes`,
+          description: `Follow on instagram for announcements`,
+          price: `25-40`
+        },
+        {
+          item: `1 dozen cookies`,
+          description: `Any variety`,
+          price: `15+`
+        },
+        {
+          item: `2 dozen cookies`,
+          description: `Any variety`,
+          price: `25+`
+        },
+        {
+          item: `Variety box`,
+          description: `3-4 different cookies`,
+          price: `35`
+        },
       ]
     },
     {
-      title: `Other`,
+      title: `Pastry and Viennoiserie`,
       content: [
         {
-          item: `Mother's Day Cookie Spread`,
-          description: `Oh la la`
-        }
+          item: `Half dozen`,
+          description: `Choose from croissants, eclairs, pain au chocolate, pain aux raisins, chausson aux pommes, brioche, danishes, mini tartlets`,
+          price: 25
+        },
+        {
+          item: `Full dozen`,
+          description: `Choose from croissants, eclairs, pain au chocolate, pain aux raisins, chausson aux pommes, brioche, danishes, mini tartlets`,
+          price: 35
+        },
       ]
     }
   ];
