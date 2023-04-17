@@ -5,7 +5,7 @@
 :root {
     --primary: rgb(16, 15, 13);
     --secondary: rgb(250, 235, 210);
-    --tertiary: #ebee30;
+    --tertiary: #b7ff1d;
     --error: rgb(228, 46, 1);
 }
 
@@ -19,9 +19,10 @@
 
 /* NAV */
 .nav {
-    min-height: 40px;
+    height: 80px;
     position: absolute;
-    background-color: #0000;
+    background-color: #2b2b2bb5;
+    width: 100vw;
 
     display: flex;
     flex-direction: row;
@@ -51,10 +52,7 @@
     font-size: 22px;
     color: var(--tertiary);
     text-decoration: none;
-    align-self: end;
-    justify-self: end;
-    align-items: end;
-    justify-items: end;
+
 }
 
 .nav a.active,
@@ -62,10 +60,10 @@
     font-style: italic;
     text-decoration: underline;
 }
-.nav a:hover {
+/* .nav a:hover {
     color: var(--primary);
     background-color: antiquewhite;
-}
+} */
 
 /* HOME PAGE */
 .home-contain {
@@ -156,39 +154,17 @@
     flex-wrap: wrap;
 }
 
-.menu-top-left {
-    width: 70%;
-    height: auto;
+.menu-bg {
+    width:100vw;
 }
-.menu-top-left img {
+.menu-bg img {
     width: 100%;
     height: 100%;
 }
-
-
-.menu-btm-left {
-    width: 30%;
-    height: auto;
-}
-.menu-btm-left img {
-    width: 100%;
-    height: 100%;
-}
-
-
-.menu-btm-right {
-    width: 30%;
-    height: auto;
-}
-.menu-btm-right img {
-    width: 100%;
-    height: 100%;
-}
-
 
 .accordion {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: #0005;
@@ -196,7 +172,6 @@
 }
 
 .accordion-flex {
-    align-self: flex-start;
     display: flex;
     flex-flow: row wrap;
 }
@@ -204,6 +179,13 @@
 .accordion-title {
     display: flex;
     flex-flow: row wrap;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    color: var(--primary);
+    margin-right: 75px;
+    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 .accordion-btn {
@@ -211,8 +193,9 @@
 }
 
 .accordion-item {
-    border: black 2px double;
-    width: 250px;
+    border: var(--tertiary) 2px solid;
+    background-color: antiquewhite;
+    width: 275px;
     margin: 15px;
     padding: 5px;
 }

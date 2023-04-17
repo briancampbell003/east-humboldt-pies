@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Home from './pages/Home';
-import About from './pages/About';
+import Gallery from './pages/Gallery';
 import Menu from './pages/Menu';
 
 export default function Container() {
@@ -12,8 +12,8 @@ export default function Container() {
         if (currentPage === 'Home') {
             return <Home />;
         }
-        if (currentPage === 'About') {
-            return <About />;
+        if (currentPage === 'Gallery') {
+            return <Gallery />;
         }
         if (currentPage === 'Menu') {
             return <Menu />;

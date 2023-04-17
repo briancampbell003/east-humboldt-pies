@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import MenuInsert from '../components/MenuInsert';
 
-const Accordion = ({ title, content }) => {
+const Accordion = ({ title, content, price }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
@@ -11,8 +11,8 @@ const Accordion = ({ title, content }) => {
         <div className="accordion-btn">{isActive ? '-' : '+'}</div>
       </div>
       {isActive && <div className="accordion-content">
-          {content.map(({ item, description }) => (
-            <MenuInsert item={item} description={description} />
+          {content.map(({ item, description, price }) => (
+            <MenuInsert item={item} description={description} price={price} />
 
           ))}
       </div>}

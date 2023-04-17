@@ -1,9 +1,7 @@
 import React from 'react';
 import Accordion from '../../components/Accordion';
-import { menuData } from '../../assets/menu-data'
-import TopLeft from '../../assets/pictures/cookies2.png';
-import BtmLeft from '../../assets/pictures/pie1.png';
-import BtmRight from '../../assets/pictures/pie2.png';
+import { menuData } from '../../assets/menu-data';
+import MenuBG from '../../assets/pictures/menu-bg.png';
 
 export default function Menu() {
     return (
@@ -15,7 +13,10 @@ export default function Menu() {
                     ))}
                 </div>
             </div>
-            <div className="menu-top-contain">
+            <div className='menu-bg'>
+                <img src={MenuBG} alt="Background with various pastries" />
+            </div>
+            {/* <div className="menu-top-contain">
                 <div className="menu-top-left">
                     <img src={TopLeft} alt="Cookies" />
                 </div>
@@ -27,7 +28,7 @@ export default function Menu() {
                 <div className="menu-btm-right">
                     <img src={BtmRight} alt="Another pie" />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

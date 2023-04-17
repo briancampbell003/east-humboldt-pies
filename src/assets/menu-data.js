@@ -4,11 +4,13 @@ export const menuData = [
       content: [
         {
           item: `Mother's Day Cookie Spread`,
-          description: `Oh la la`
+          description: `Oh la la`,
+          price: 15,
         },
         {
           item: `Summer's Here Applie Pie`,
-          description: `Yum yum`
+          description: `Yum yum`,
+          price: 15,
         },
       ]
     },
