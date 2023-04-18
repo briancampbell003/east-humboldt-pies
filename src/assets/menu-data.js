@@ -1,14 +1,14 @@
 export const menuData = [
-    {
-      title: `Seasonal specials`,
-      content: [
-        {
-          item: `Check back later!`,
-          description: ``,
-          price: ``,
-        },
-      ]
-    },
+    // {
+    //   title: `Seasonal specials`,
+    //   content: [
+    //     {
+    //       item: `Check back later!`,
+    //       description: ``,
+    //       price: ``,
+    //     },
+    //   ]
+    // },
     {
       title: `Pies and Tarts`,
       content: [
@@ -18,7 +18,7 @@ export const menuData = [
           price: 30
         },
         {
-          item: `Custard-based and cold-set pies`,
+          item: `Custard-based & cold-set pies`,
           description: `lemon meringue, banana cream, coconut cream, key lime, chess, creme brulee, sugar pie, pecan`,
           price: 35
         },

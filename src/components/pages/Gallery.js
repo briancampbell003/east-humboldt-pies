@@ -11,30 +11,30 @@ import Cake2 from '../../assets/pictures/cake2.png';
 export default function Gallery() {
     return (
         <div className="carousel-contain">
-            <Carousel autoPlay="true">
+            <Carousel autoPlay="true" dynamicHeight='true' infiniteLoop='true'>
                     <div>
                         <img src={Pie1} alt="Lemon Meringue Pie" />
-                        <p className="legend">"This lemon meringue pie made me say "YUM!!!!!!!~!!!"</p>
+                        {/* <p className="legend">Legend 1</p> */}
                     </div>
                     <div>
                         <img src={Cake2} alt="Cake" />
-                        <p className="legend">Legend 2</p>
+                        {/* <p className="legend">Legend 2</p> */}
                     </div>
                     <div>
                         <img src={Cookies2} alt="Cookies" />
-                        <p className="legend">Legend 3</p>
+                        {/* <p className="legend">Legend 3</p> */}
                     </div>
                     <div>
                         <img src={Cake1} alt="Cake" />
-                        <p className="legend">Legend 3</p>
+                        {/* <p className="legend">Legend 3</p> */}
                     </div>
                     <div>
                         <img src={Cookies1} alt="Cookies" />
-                        <p className="legend">Legend 3</p>
+                        {/* <p className="legend">Legend 3</p> */}
                     </div>
                     <div>
                         <img src={Pie2} alt="Pie" />
-                        <p className="legend">Legend 3</p>
+                        {/* <p className="legend">Legend 3</p> */}
                     </div>
                 </Carousel>
         </div>
