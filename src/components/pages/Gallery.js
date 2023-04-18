@@ -21,7 +21,7 @@ export default function Gallery() {
         <div className="carousel-contain">
             <Carousel autoPlay="true" dynamicHeight='true' infiniteLoop='true'>
                     <div>
-                        <img src={Pie1} alt="Lemon Meringue Pie" />
+                        <img src={Pie2} alt="Lemon Meringue Pie" />
                         {/* <p className="legend">Legend 1</p> */}
                     </div>
                     <div>
@@ -69,7 +69,7 @@ export default function Gallery() {
                         {/* <p className="legend">Legend 3</p> */}
                     </div>
                     <div>
-                        <img src={Pie2} alt="Pie" />
+                        <img src={Pie1} alt="Pie" />
                         {/* <p className="legend">Legend 3</p> */}
                     </div>
                 </Carousel>
