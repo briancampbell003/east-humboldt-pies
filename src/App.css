@@ -10,7 +10,7 @@
 }
 
 .page-contain {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     position: relative;
     width: 100%;
     left: 0;
@@ -147,9 +147,9 @@
 /* GALLERY */
 .carousel-contain {
     margin-top: 120px;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    width: 40%;
+    margin-left: 32vw;
+    margin-right: 32vw;
+    width: 36%;
 }
 
 .carousel {
@@ -162,6 +162,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 1000px;
 }
 
 .menu-bg {
@@ -179,26 +181,28 @@
     margin-top: 120px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #0005;
-    border-radius: 15px;
+
 }
 
 .accordion-flex {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    align-content: space-around;
+    max-height: 90vh;
+    
 }
+
 
 .accordion-title {
     display: flex;
     flex-flow: row wrap;
     font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: var(--secondary);
-    margin-right: 75px;
     padding-left: 5px;
     padding-right: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
@@ -210,7 +214,7 @@
     border: var(--tertiary) 2px solid;
     height: fit-content;
     background-color: var(--primary);
-    width: 275px;
+    width: 280px;
     margin: 15px;
     padding: 5px;
 }
@@ -243,6 +247,10 @@
 .menu-insert-description {
     font-style: italic;
     margin-left: 10%;
+    margin-top: 10px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 

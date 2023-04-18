@@ -10,7 +10,7 @@ export const menuData = [
     //   ]
     // },
     {
-      title: `Pies and Tarts`,
+      title: `Pies & Tarts`,
       content: [
         {
           item: `Fruit pies`,
@@ -82,7 +82,7 @@ export const menuData = [
       ]
     },
     {
-      title: `Pastry and Viennoiserie`,
+      title: `Pastry & Viennoiserie`,
       content: [
         {
           item: `Half dozen`,
