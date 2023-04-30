@@ -50,7 +50,7 @@
     padding-left: 30px;
     padding-right: 30px;
     font-size: 22px;
-    color: var(--tertiary);
+    color: var(--secondary);
     text-decoration: none;
 
 }
@@ -59,12 +59,9 @@
 .nav a:hover {
     font-style: italic;
     text-decoration: underline;
+    color: var(--tertiary);
 }
 
-/* .nav a:hover {
-    color: var(--primary);
-    background-color: antiquewhite;
-} */
 
 /* HOME PAGE */
 .home-contain {
@@ -150,6 +147,7 @@
     margin-left: 32vw;
     margin-right: 32vw;
     width: 36%;
+    height: max-content;
 }
 
 .carousel {
@@ -271,19 +269,29 @@
     list-style-type: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
     .nav {
         flex-direction: column;
+        height: 200px;
+        align-content: center;
     }
-
+    
     .nav p {
         background-color: var(--secondary);
         border: var(--tertiary) 2px solid;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        margin-right: 40px;
     }
-
+    
     .nav a {
         font-size: 22px;
+        margin-right: 40px;
+        margin-top: 50px;
+    }
 
+    ul.nav {
+        justify-content: space-between;
     }
 
     .home-top-contain {
@@ -300,6 +308,9 @@
 
     .home-top-right {
         width: 100%;
+        padding: 0px;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
     .home-btm-left {
@@ -308,9 +319,32 @@
 
     .home-btm-middle {
         width: 100%;
+        padding: 0px;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
     .home-btm-right {
         width: 100%;
+    }
+
+    .carousel-contain {
+        margin-top: 220px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        width: 70%;
+    }
+    
+    .menu-contain {
+        margin-top: 220px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: calc(100%-40px);
+    }
+
+    .accordion  {
+        flex-flow: column wrap;
+
+        
     }
 }
