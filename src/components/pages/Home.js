@@ -22,6 +22,8 @@ const Home = () => {
             <div className="home-btm-middle">
                 <h3>About the Owner</h3>
                 <p>Sarah Wilson started baking while finishing a PhD in medieval literature. She takes inspiration from historical recipes and baking methods and enjoys exploring her culinary roots through her British-Texan lineage.</p>
+                <br></br>
+                <p>She can be reached at swilson821@gmail.com</p>
             </div>
             <div className="home-btm-right">
                 <img src={BtmRight} alt="Lemon meringue pie" />
