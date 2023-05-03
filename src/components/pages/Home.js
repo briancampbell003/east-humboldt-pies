@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home-contain">
         <div className="home-top-contain">
             <div className="home-top-left">
-                <img src={TopLeft} alt="Pies on a table" />
+                {/* <img src={TopLeft} alt="Pies on a table" /> */}
             </div>
             <div className="home-top-right">
                 <h3>From My Home To Yours</h3>

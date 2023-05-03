@@ -80,6 +80,7 @@
     margin-left: 0;
     width: 72%;
     height: auto;
+    background-image: url(./assets/pictures/nav-bg-1.png);
 }
 
 .home-top-left img {
@@ -161,10 +162,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-height: 1000px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./assets/pictures/menu-bg.png);
 }
 
 .menu-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     width: 100%;
     background-color: var(--secondary);
 }
@@ -175,18 +181,18 @@
 }
 
 .accordion {
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 5%;
-    margin-right: 5%;
+    /* position: absolute; */
+    margin-left: 3%;
+    margin-right: 3%;
 
 }
 
 .accordion-flex {
+    margin-top: 120px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-content: space-around;
-    max-height: 90vh;
+    width: 100%;
     
 }
 
@@ -291,7 +297,7 @@
     }
 
     ul.nav {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .home-top-contain {
@@ -336,15 +342,17 @@
     }
     
     .menu-contain {
-        margin-top: 220px;
         flex-direction: column;
         flex-wrap: wrap;
-        width: calc(100%-40px);
+        height: fit-content;
+        max-height: fit-content;
     }
-
-    .accordion  {
+    .accordion {
+        margin-top: 100px;
+    }
+    .accordion-flex  {
+        display: flex;
         flex-flow: column wrap;
-
-        
+        height: fit-content;
     }
 }
